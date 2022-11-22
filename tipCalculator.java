@@ -40,7 +40,7 @@ public class tipCalculator {
 	//Print billing information.
 	System.out.println("*******************************************************");
 	    System.out.println("Your original total bill - $" + df.format(totalBill));
-	    System.out.println("Your new total with tax and tip - $" + df.format(totalBillTip));
+	    System.out.println("Your new total with tip - $" + df.format(totalBillTip));
 	    System.out.println("Your new total pluse split amount - $" + df.format(overallTotalSplit));
 	    
 	  }
